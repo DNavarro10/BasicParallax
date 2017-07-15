@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,html{
+	height: 100%;
+	font-size: 16px;
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+	
+}
+.png1, .png2, .png3{
+	position: relative;
+	opacity: .7;
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*
+		fixed = parallax
+		scroll = normal
+	*/
+	background-attachment: fixed;
+}
+.png1{
+	background-image: url('../img/imagen1.jpeg');
+	min-height: 100%;
+}
+
+.png2{
+	background-image: url('../img/imagen2.jpeg');
+	min-height: 40%;
+}
+
+.png3{
+	background-image: url('../img/imagen3.jpeg');
+	min-height: 40%;
+}
+
+.section {
+	padding: 50px 80px;
+	text-align: justify;
+}
+
+.section > h2{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.section-light{
+	background-color:#f4f4f4;
+	color: #666;
+}
+
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 7px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000000;
+	
+}
+
+.ptext .borde{
+	background-color: #111;
+	color: #fff;
+	padding: 30px;
+}
+
+.ptext .trans{
+	background: transparent;
+}
